@@ -1,0 +1,1 @@
+import{_ as t,W as n,a7 as o,$ as _,C as s,Y as a}from"./framework-608e059a.js";const c={},l=a("div",{class:"none"},"内容美化",-1);function i(r,f){const e=s("ClientOnly");return n(),o(e,null,{default:_(()=>[l]),_:1})}const B=t(c,[["render",i],["__file","BlogBeautify.vue"]]);export{B as default};

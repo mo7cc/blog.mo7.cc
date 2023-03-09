@@ -1,0 +1,515 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "墨七",
+  "home_page_url": "https://blog.mo7.cc/",
+  "feed_url": "https://blog.mo7.cc/feed.json",
+  "description": "墨七 - 简单快乐，理应如此。",
+  "icon": "https://blog.mo7.cc/pwa/144.png",
+  "authors": [
+    {
+      "name": "墨七",
+      "url": "https://mo7.cc"
+    }
+  ],
+  "items": [
+    {
+      "title": "演示",
+      "url": "https://blog.mo7.cc/tools/%E6%BC%94%E7%A4%BA.html",
+      "id": "https://blog.mo7.cc/tools/%E6%BC%94%E7%A4%BA.html",
+      "summary": "演示 这里是 Markdown 演示 插入 UML 流程图 插入 思维导图 源码界面",
+      "content_html": "<h1> 演示</h1>\n<h2> 这里是 Markdown 演示</h2>\n<p>插入 UML 流程图</p>\n<figure><figcaption></figcaption></figure>\n<p>插入 思维导图</p>\n<figure><figcaption></figcaption></figure>\n<h2> 源码界面</h2>\n<p>\n</p>\n",
+      "date_published": "2023-03-08T08:42:30.000Z",
+      "date_modified": "2023-03-08T08:42:30.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Markdown 流程图与思维导图",
+      "url": "https://blog.mo7.cc/tools/mdPerfect.html",
+      "id": "https://blog.mo7.cc/tools/mdPerfect.html",
+      "summary": "Markdown 流程图与思维导图 个人笔记的终极形态 Markdown、 Github 存储，VSCode 插件 本文重点 两个 VSCode 插件链接: vscode-mindmap 开源的思维导图工具。作者基于源码 fork 进行优化，支持直接以 *.km.svg 的形式进行直接编辑和保存。",
+      "content_html": "<h1> Markdown 流程图与思维导图</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">个人笔记的终极形态</p>\n<p>Markdown、\nGithub 存储，VSCode 插件</p>\n</div>\n<h2> 本文重点</h2>\n<p>两个 VSCode 插件链接:</p>\n<blockquote>\n<p><a href=\"https://marketplace.visualstudio.com/items?itemName=eightHundreds.vscode-mindmap\" target=\"_blank\" rel=\"noopener noreferrer\">vscode-mindmap</a>\n开源的思维导图工具。作者基于源码 fork 进行优化，支持直接以 <code>*.km.svg</code> 的形式进行直接编辑和保存。</p>\n</blockquote>\n<blockquote>\n<p><a href=\"https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio\" target=\"_blank\" rel=\"noopener noreferrer\">Draw.io Integration</a>\n开源的流程图绘制工具，支持直接以 <code>.drawio.svg</code>的文件形式直接进行保存。</p>\n</blockquote>\n<p>因为这俩货可以直接基于 SVG 进行编辑和保存，没有任何导出步骤。<strong>于是</strong>:<br>\n</p>\n<blockquote>\n<p>爽翻天了有木有！ 直接补齐了 Markdown 唯一的短板！开源的才是最伟大的！</p>\n</blockquote>\n<h2> 起因</h2>\n<p>之前一直采用 Markdown 来做笔记，但是奈何其表达形式有限。</p>\n<blockquote>\n<p>notion、语雀、飞书、印象笔记。。。</p>\n</blockquote>\n<p>市面上笔记软件非常多，各有特色但功能基本趋同。后来一直在用飞书，它可以在其中穿插各种表格，图表，流程图、思维导图，感觉很赞，而且可以在线共享共同编辑。不知不觉就用了两年多。<br>\n但是，就在上个月，我的飞书突然被封禁，飞书官方告知我无法解封的时候，正式宣告我的上百篇文档彻底跟我没了关系。</p>\n<blockquote>\n<p>这种感觉就像跟渣女谈恋爱一样让人毫无安全感。</p>\n</blockquote>\n<p>虽然后来重新注册了飞书账户，但是我再也不想把自己的东西放在上面了。<br>\n然后我四处寻找可以完美替代飞书文档的工具。</p>\n<h2> 在线笔记</h2>\n<p><strong>在线笔记的好处</strong>:</p>\n<ol>\n<li>\n<p><strong>用完就走。</strong><br>\n<em>打开一个链接就可以直接开始编写</em></p>\n</li>\n<li>\n<p><strong>文档共享十分方便。</strong><br>\n<em>一个链接发给对方就行了</em></p>\n</li>\n<li>\n<p><strong>权限控制。</strong><br>\n<em>你可以设置谁可以看，谁能看，谁拥有编辑权限等</em></p>\n</li>\n<li>\n<p><strong>入门简单，使用方便。</strong><br>\n<em>字节跳动，阿里巴巴等大国内一线大厂程序员和产品，经年累月的帮你设计和优化，贴心的功能，精美的外观，一流的体验....</em></p>\n</li>\n<li>\n<p><strong>功能丰富</strong><br>\n<em>这里不得不提一嘴 <code>语雀 </code>和 <code>金山文档</code> 的流程图和思维导图工具，体验感拉满</em></p>\n</li>\n</ol>\n<p>但是有一个无论如何都无法避免的缺点: <strong>你的笔记并不属于你！！！！！</strong></p>\n<p>凡是在线文档，你的文档全部存在于各大公司的服务器之上，包括这些文档的<strong>解释权</strong>、<strong>访问权</strong> 都不属于你。我国自有国情在，如果你在文档当中包含了一些关键性的字眼，账号被封你欲哭无泪。包括国内各种云盘相关的文件等。你的内容安全性根本无从谈起！个人隐私等同于没有！</p>\n<p>公司倒闭，你的东西会跟着一块受到牵连。</p>\n<blockquote>\n<p>免费的，才是最贵的，除非它开源。</p>\n</blockquote>\n<p>除此之外还有各种坑: 为了留住你，所有的平台，包括知乎、简书、语雀等等等，你导入都很方便，但是导出么就.......</p>\n<p>其次我非常认可的在线笔记有: Microsoft 365 的 <a href=\"https://www.office.com\" target=\"_blank\" rel=\"noopener noreferrer\">Office Online</a> 和 <a href=\"https://www.notion.so\" target=\"_blank\" rel=\"noopener noreferrer\">Notion</a>。</p>\n<p>包括 google 的 docs 我都觉得做的一般。</p>\n<p>其中 Office 是采用 OneDrive 来进行存储的，我非常安心。</p>\n<p>但是这三货的在线都需要梯子！并且都不带流程图和思维导图！完全无法忍受！</p>\n<p><code>语雀</code>，国内阿里的，而且不开会员无法在线共享。体验虽好，但是就因为你是国内的在线文档，还无法免费共享。这个就直接 pass 了</p>\n<p><code>腾讯文档</code>，免费，但是体验太差了。不带流程图和思维导图。pass</p>\n<p><code>金山文档</code>，免费，可以直接在线共享，只是存储空间非常小，但省着点也差不多够用。</p>\n<hr>\n<p>在线文档这块，</p>\n<p>如果对流程图和思维导图没有非得内置的强制要求，首先推荐 <code>office</code>。</p>\n<p>如果对墙有要求，首推<code>语雀</code></p>\n<p>如果在线共享需求强烈的，墙内推荐 金山文档 ，墙外推荐 <code>office</code></p>\n<p>如果想免费在线分享编辑推荐 <code>金山文档</code> 。讲真，WPS 会员还是很香的（前提是微软倒闭，或者 Microsoft 365 突然出现不合理的收费）</p>\n<p>如果想在墙内线分享，且不差钱，<code>语雀</code>。</p>\n<p>如果飞书账号在国内进行了企业认证，然后分享的内容不涉及任何敏感话题，且分享范围很小，依然首推<code>飞书</code>。</p>\n<p>(飞书的封禁很严格，你对外分享的文档里面打错一个字就会被封禁，金山文档和语雀，只要不涉及敏感话题都没啥太大的问题)</p>\n<p>但是吧，啥玩意儿是敏感话题，你说了不算。言论自由压根不存在的。</p>\n<p>PS: 根据调查，文档出了问题 <code>金山文档</code> 和 <code>语雀</code> 会直接屏蔽对应文档的在线分享链接，你的文档你依然可以打开。但是飞书属于直接没收，只留给你账户封禁四个字。</p>\n<blockquote>\n<p><strong>我特么近百篇文档笔记全都没了！！！</strong>\n在线笔记，像极了女神，你顺着她就会过得很舒服。但是，她的心理从来没有你，而且保不齐随时会出轨。</p>\n</blockquote>\n<h2> 本地笔记</h2>\n<p>Markdown 基本上是首选。(OneNote 这玩意儿我只想说呵呵~)</p>\n<p>md 是一种很干净的文本格式，任何软件都能打开它，即使没有软件渲染也不影响阅读。并且，几乎所有的平台都支持 Markdown 的语法跟格式，Markdown 写作的笔记可以无需任何更改就可以发表到任何平台而保证格式不乱。</p>\n<p>但是，md 也会存在一些致命的缺点：</p>\n<ul>\n<li>无法内置图片，单独一个主文件图像会无法显示</li>\n<li>语法需要一点点学习成本</li>\n<li>它的呈现效果取决于渲染器是什么样</li>\n<li>无法在线分享和多人协作编辑</li>\n</ul>\n<p>但是，它的优点是无法让人拒绝的。而对于一个程序员来说，任何东西只要开了源，那么它的潜力就是无限且巨大的！</p>\n<p>只要解决了图床问题，md 单文件就可以无需改动随处分发。(我有一台免费流量带宽不限制的国内服务器，且自建了图床)。</p>\n<p>身为前端程序员，md 完美兼容 HTML 的语法简直就是潜力无限，你能用肉眼看到的任何排版和样式，我都能用 md 给你展现出来。。。。</p>\n<p>md 的渲染器大多都是开源的，而且标准大多数都是统一的，也就是说，你无须担心自己的文档无法查看~ 开源就意味着，不死不灭，除非人类文明湮灭。</p>\n<p>Github，世界上最大的交友平台，琳琅满目的开源软件，上百人一起协作编写一份代码文件都不在话下，区区 md 而已。通过各种开源软件，可以在 1 小时内，让你的 md 文档被全世界人和人看到。</p>\n<p>只是共同编辑的门槛稍微会高一丢丢，非程序员可能会很难参与进来。</p>\n<p>虽然很多基于 md 的渲染器都内置了 流程图 和 思维导图的解析语法，但是学习成本依然很高，并且创作的时候非常不直观。。</p>\n<p>不过基于 VSCode 和其插件生态可以完美的解决这个问题。编写好的 Md 也可以通过 VuePress 一键部署到个人博客。并且很多步骤都可以脚本实现自动化。熟练之后，使用体验丝毫不亚于各种在线文档。</p>\n<figure><figcaption></figcaption></figure>\n<p>关键问题是：<strong>我写的文档，它只属于我~！</strong></p>\n<blockquote>\n<p>Markdown 就像是暗恋你的小妹妹，她可能什么都不会，也什么都不懂，但是却非常可爱，她需要你花心思调教。但是，她满眼都是你，而且永不背叛！只要调教得当，它能在你的帮助下爆发出无与伦比的力量！这特么才是真爱！</p>\n</blockquote>\n",
+      "date_published": "2023-03-08T08:37:21.000Z",
+      "date_modified": "2023-03-09T02:17:27.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "技巧",
+        "使用指南",
+        "工具"
+      ]
+    },
+    {
+      "title": "uTools",
+      "url": "https://blog.mo7.cc/tools/uTools.html",
+      "id": "https://blog.mo7.cc/tools/uTools.html",
+      "summary": "uTools 相见恨晚的 PC 端工具集 当我搞明白这货的使用方法和运行逻辑之后，不仅效率提升了很多，我还卸载了十几个软件。 本文重点 https://open.u-tools.cn/445779.html",
+      "content_html": "<h1> uTools</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">相见恨晚的 PC 端工具集</p>\n<p>当我搞明白这货的使用方法和运行逻辑之后，不仅效率提升了很多，我还卸载了十几个软件。</p>\n</div>\n<h2> 本文重点</h2>\n<p><a href=\"https://open.u-tools.cn/445779.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://open.u-tools.cn/445779.html</a></p>\n<p>基于 nodejs 开发的跨平台工具集合。<br>\n横跨 Mac、Windows、Linux 三大平台，设计体验一致。它使得你的工具软件不再零碎。<br>\n有了它，你的电脑只需要安装必要的核心软件就可以了。</p>\n<h2> 一个截屏翻译软件引发惨案</h2>\n<p>在 windows 下有一个神器： <code>有道词典</code><br>\n我少数几个允许开机启动且后台常驻的软件。我的英文阅读水平一般，但我的工作经常会用到各种英文文档，所以翻译工具基本上是必不可少的。我一般都是把文字复制下来然后丢到软件当中去翻译，习惯了之后其实也没啥。但是有些文字是无法被复制的，这个时候是非常不方便的。</p>\n<p>有道词典设置快捷键，直接像截图一样去识别屏幕上的英文语句，然后直接显示翻译结果，极大地提高了我的学习和工作效率。</p>\n<p>但是！Mac 下没有这个功能。。。。</p>\n<p>Mac 下我用的是这个玩意儿</p>\n<figure><figcaption></figcaption></figure>\n<p>还特么花了我 50 大洋，现在想一想，自己真是个大怨种。</p>\n<p>嗯，这货号称 Mac 下最好的截屏翻译工具，也确实好用。但是，它采用的是 Mac 系统<code>快捷指令</code>实现的截屏翻译功能。但是 Mac 的 api 是不允许代理方问的。每次使用我都得关闭代理。。天呐，烦透了，但是没办法。配置其它的访问 api 都存在一定的限制或者费用。但是将就将就又不是不行。</p>\n<p>然后前段时间 B 站发现了一个 UP 主推荐了 <code>uTolls</code>，好奇心驱使下就去下载体验了一下。</p>\n<figure><figcaption></figcaption></figure>\n<figure><figcaption></figcaption></figure>\n<figure><figcaption></figcaption></figure>\n<blockquote>\n<p>注：Mac 和 Windows 体验完全一致</p>\n</blockquote>\n<p>其内部实现了一个叫做 <code>关键字</code> 的调用逻辑，每个插件都可以使用关键字来调用其它的关键字，一个插件可以有多个关键字。所有插件之间都是可以相互进行调用的。</p>\n<p>于是就出现了各种组合，比如：<br>\n<code>截图插件</code> + <code>OCR 识别插件</code> + <code>翻译插件</code> = <strong>截屏翻译功能</strong><br>\n<code>截图插件</code> + <code>二维码解析插件</code> = <strong>扫码功能</strong> (PC 能扫码了，喜极而泣)<br>\n<code>文本提取</code> + <code>网址精灵</code> = <strong>一键收藏网址</strong><br>\n<code>文件提取</code> + <code>PDF转换器</code> = <strong>一键转换 PDF 文件</strong><br>\n<code>文件提取</code> + <code>图片压缩</code> = <strong>一键压缩本地图片</strong><br>\n<code>文件提取</code> + <code>搜索插件</code> = <strong>一键搜索本地文件</strong><br>\n.....</p>\n<p>VSCode 能像如今这般如火如荼，离不开丰富的插件生态，其插件生态丰富是因为它的插件核心语言是 Javascript。<br>\nuTools 的插件语言，也是 Javascript。开发一个插件快捷而迅速，而且 uTools 软件本身磨平了一些系统 API 之间的差异。你编写的插件可以很方便的进行进行系统的各项操作。<br>\n目前 uTools 插件市场 400 + 各类插件，他们组合搭配起来基本上可以<code>[一键]</code>解决你 90%以上的快捷问题。</p>\n<p>自从有了 uTools ，我把电脑上大部分快捷键都取消了，并且卸载了一大票工具类软件。后台只需要运行一个工具类软件，那就是 <code>uTools</code>。</p>\n<p>虽然它的截图功能存在一些问题，但是够用。我们一般使用截图也只是方便标注和发送而已。遇到一些特殊情况的截图，可以搭配使用系统自带的截图使用。关键问题是，一堆 IM 软件和工具不用再相互打架了。节省时间就是延长生命。</p>\n<blockquote>\n<p>截图工具并非 uTools 官方开发所以体验和功能很一般。但是官方开发的录屏工具却十分好用。可以看得出，社区出品的插件跟官方出品的插件质量上还是存在着一些差距。截图是一个很常用的功能，希望 uTools 官方能出手优化一下。</p>\n</blockquote>\n<h2> 软件的使用演示</h2>\n",
+      "date_published": "2023-03-08T08:37:21.000Z",
+      "date_modified": "2023-03-08T11:18:48.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "技巧",
+        "使用指南",
+        "工具"
+      ]
+    },
+    {
+      "title": "留言板",
+      "url": "https://blog.mo7.cc/about/guestbook.html",
+      "id": "https://blog.mo7.cc/about/guestbook.html",
+      "summary": "留言板 ™ 有什麽想説的？ 有什麽想問的？ 有什麽想吐槽的？ 可以在下面留言... @墨七。",
+      "content_html": "<h1> 留言板</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">™</p>\n<div style=\"text-align:center\">\n<p>有什麽想説的？</p>\n<p>有什麽想問的？</p>\n<p>有什麽想吐槽的？</p>\n<p>可以在下面留言...</p>\n</div>\n<div style=\"text-align:right\">\n<p><a href=\"https://mo7.cc\" target=\"_blank\" rel=\"noopener noreferrer\">@墨七</a>。</p>\n</div>\n</div>\n<hr>\n",
+      "date_published": "2023-03-06T06:51:29.000Z",
+      "date_modified": "2023-03-06T07:20:16.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "关于",
+      "url": "https://blog.mo7.cc/about/",
+      "id": "https://blog.mo7.cc/about/",
+      "summary": "关于 关于本站 关于本站 关于我 留言板",
+      "content_html": "<h1> 关于</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">关于本站</p>\n</div>\n<ul>\n<li><a href=\"/about/website.html\" target=\"blank\">关于本站</a></li>\n<li><a href=\"/about/me.html\" target=\"blank\">关于我</a></li>\n<li><a href=\"/about/guestbook.html\" target=\"blank\">留言板</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-03-06T06:42:08.000Z",
+      "date_modified": "2023-03-06T07:20:16.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "墨七(Mo7)",
+      "url": "https://blog.mo7.cc/about/me.html",
+      "id": "https://blog.mo7.cc/about/me.html",
+      "summary": "墨七(Mo7) 关于我 我叫『墨七』，一名非典型程序员。热爱编程，喜欢拥抱新技术，妄图改变世界，企图让世界因我而美好。 一名全站工程师，在多个开发领域都有着比较丰富的经验。 曾就职于 TapTap，稻壳，等多家互联网企业。跟朋友一起开过公司。目前在西安一家上市药企业任职。 墨七 , mo7 , Mo7 关于爱好 写代码给我带来过很多快乐，也曾在我内心最悲伤的时候陪伴我走出阴影。 经常会突发奇想，喜欢自己设计构想，然后自己动手实现的那种成就感。写出来的东西被大家认可也会给我带来极大的满足感。",
+      "content_html": "<h1> 墨七(<em>Mo7</em>)</h1>\n<h2> 关于我</h2>\n<p>我叫『墨七』，一名非典型程序员。热爱编程，喜欢拥抱新技术，妄图改变世界，企图让世界因我而美好。</p>\n<p>一名全站工程师，在多个开发领域都有着比较丰富的经验。</p>\n<p>曾就职于 TapTap，稻壳，等多家互联网企业。跟朋友一起开过公司。目前在西安一家上市药企业任职。</p>\n<blockquote>\n<p>墨七 , mo7 , Mo7</p>\n</blockquote>\n<h2> 关于爱好</h2>\n<p>写代码给我带来过很多快乐，也曾在我内心最悲伤的时候陪伴我走出阴影。</p>\n<p>经常会突发奇想，喜欢自己设计构想，然后自己动手实现的那种成就感。写出来的东西被大家认可也会给我带来极大的满足感。</p>\n<p>编码上头时，可以十几个小时不吃不睡依然精神；但也会一口气睡上十几个小时雷打不动(睡眠质量特别高，躺床上 10 分钟就没了意识，深度睡眠基本都在 4 小时往上)。</p>\n<p>喜欢篮球，曾是校队成员；喜欢电影、游戏、美食、阅读和思考。喜欢创造，喜欢看着自己亲手建立的东西一点点完善。</p>\n<p>喜欢玩原神、星际争霸、在 Steam 上体验各种大作。曾经的暴雪粉。</p>\n<h2> 关于理想</h2>\n<p>愿世界和平，愿所有的种子都能开花结果，愿有情人终成眷属，愿好人一生平安。</p>\n<p>但愿望终归只是愿望，我唯一能做的事情就是在目之所及之处做到最好，在自己能力范围之内发挥自己所长帮助更多的人。</p>\n<h2> 关于本站</h2>\n<p>本站采用\n<a href=\"https://v2.vuepress.vuejs.org\" target=\"_blank\" rel=\"noopener noreferrer\">VuePress</a> 搭建，\n基于主题 <a href=\"https://theme-hope.vuejs.press\" target=\"_blank\" rel=\"noopener noreferrer\">ThemeHope</a> 由个人魔改而成。</p>\n<p>关于更多信息可阅读 <a href=\"/about/website.html\" target=\"blank\">关于本站</a></p>\n<p>在日常的工作和学习当中我积累了大量的经验、知识和技巧，他们被我用 md 记录了下来存储在 Github 的私人仓库之上。</p>\n<figure><figcaption></figcaption></figure>\n<p>并且还有一些想法，想要表达的思想和观点等。我不太愿意将这些东西公布在各种公众平台之上，因为当我的知识变成了数据，那么这些数据的安全和版权应当由我自己负责，</p>\n<p>写博客，并不仅仅只是为了表达，更是一种<code>记忆</code>和<code>修身养性</code>的方式，让自己浮躁的生活跟心情沉淀下来的一种手段。我希望过个七年八年的，再回首打开这个站点的时候，它能变成一种财富和寄托。</p>\n<hr>\n<blockquote>\n<p>请记住域名 <code>mo7.cc</code> , 希望我们能成为朋友 😉 ~</p>\n</blockquote>\n",
+      "date_published": "2023-03-06T06:42:08.000Z",
+      "date_modified": "2023-03-06T06:51:29.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "关于本站",
+      "url": "https://blog.mo7.cc/about/website.html",
+      "id": "https://blog.mo7.cc/about/website.html",
+      "summary": "关于本站 前言 博主基于 ThemeHope 这款主题做了一些小的修改，包括样式以及功能。每一处修改均以插件的形式进行了封装，但并未发布。喜欢的小伙伴可以留言。 顶栏功能介绍 这是顶部的一些下拉菜单，其中画板下拉菜单可以更改主题和全屏浏览。 PC端 顶栏",
+      "content_html": "<h1> 关于本站</h1>\n<h2> 前言</h2>\n<p>博主基于 <a href=\"https://theme-hope.vuejs.press\" target=\"_blank\" rel=\"noopener noreferrer\">ThemeHope</a> 这款主题做了一些小的修改，包括样式以及功能。每一处修改均以插件的形式进行了封装，但并未发布。喜欢的小伙伴可以留言。</p>\n<h3> 顶栏功能介绍</h3>\n<p>这是顶部的一些下拉菜单，其中画板下拉菜单可以更改主题和全屏浏览。</p>\n<figure><figcaption>PC端 顶栏</figcaption></figure>\n<h3> 音乐播放器</h3>\n<p>博主基于 <a href=\"https://aplayer.js.org\" target=\"_blank\" rel=\"noopener noreferrer\">APlayer</a> 开发了一款全局的音乐播放器。可以通过顶部导航栏右上角的 </p>\n<figure><figcaption>PC端 顶栏</figcaption></figure>\n<h3> 评论区介绍</h3>\n<p>评论区设置了发布频率限制，允许不登录匿名留言，支持 Markdown 语法，支持图片上传，支持预览和 Emoji 表情。</p>\n<figure><figcaption>评论区截图</figcaption></figure>\n<blockquote>\n<p>建议使用 Github 登录。</p>\n</blockquote>\n<h2> 缘起</h2>\n<p>我最初学编程的目的就是为了能够拥有一个属于自己的网站，我觉得那会很酷，仿佛自己的心声可以被全世界所听到。我觉得程序员很酷，因为我觉得每一个程序员都拥有足以改变世界的力量。</p>\n<p>时代变化如此之快，还没等我自己的第一行代码上线运行，微博，知乎，简书等各大平台如同雨后春笋一样拔地而起，互联网时代就在我身边悄然而至，这些应用也在悄然的改变我们每一个人的思考和生活方式。时光荏苒，回头再望发现自己只不过是沧海一粟。</p>\n<h2> 缘落</h2>\n<p>我们细数一下，在当前时代如果你想从零搭建一个自己可以完全操控的稳定的站点，需要哪些知识和技巧:</p>\n<ol>\n<li>通过域名商购买符合自己心意的域名。</li>\n<li>通过云计算服务商购买符合自己心意的服务器（此时你需要最基本的计算机基础知识，和 Linux 最基本的操作技巧以及处理操作系统常见问题的能力。）</li>\n<li>了解基本的 HTTP 原理。</li>\n<li>掌握 HTML、javascript、css 网页编辑语言，掌握常见的开发调试技巧。</li>\n<li>如果你想让数据流动起来，你需要掌握一门服务器编程语言和最基本的数据库操作使用方法。</li>\n</ol>\n<blockquote>\n<p>查看<a href=\"/favorite/links/document.html\" target=\"blank\">本站用到的相关技术</a>，除此之外，网站的运营还涉及到 SEO ，流量推广，PWA 等等知识。如果你在中国大陆，想让自己的站点稳定的运行，还得了解基本的法律法规和管理条例以及备案技巧。</p>\n</blockquote>\n<p>如果你想让它变得内容变得更加丰富，界面变得更加生动，访问速度更快，或者功能性更强。\n你还得深入掌握更多更加专业的知识或者技巧。如果想要让站点能够与时俱进，得保证技术的更迭和软件的维护。随着功能越来越多，所需要的各种专业知识也将更多。</p>\n<blockquote>\n<p>当然我们这里的讨论排除掉各种站点的速成框架以及集成化的方案，这种囫囵吞枣式的搭建方式都带有铜臭味。毕竟作为程序员，对技术还是需要一点点小资品位的。</p>\n</blockquote>\n<p>大到淘宝、Facebook，小到个人站点，他们所需要的最基本的技术和配置都差不多，只是所需要的深浅不太一样。随着技术大牛们的努力和开源世界的慷慨，这些事情越来越容易。</p>\n<h2> 需求</h2>\n<p>在最初，我是采用下面这种方式去记录自己的日常工作和学习的:</p>\n<figure><figcaption>这是图片</figcaption></figure>\n<p>后来还用过飞书、Excel、各种 ToDo 软件等。还是觉得 <code>Vscode + Markdown</code> 的方式最好。方便阅读、方便修改、简单、兼容性好。一次编写可以很轻松的在各种格式下进行转换，属于文档当中的【基本单元】。不管是 Word、还是 Excel，如果没有特定的软件读取则无法访问，并且由于商业竞争，它们对其它软件的兼容性都很差强人意，格式转换时也会出现排版混乱等情况。但是 Markdown 则不同，它排版简单，使用方便，长什么样子完全取决于阅读器的主题，不同主题下可以可以拥有不同的观感，排版也不会混乱。包括我的个人资料，文件，文档，心得体会，和一些日常的小记录等我全都采用 md 去记录的。</p>\n<p><a href=\"https://markdown.com.cn\" target=\"_blank\" rel=\"noopener noreferrer\">Markdown</a> 中图片的处理会比较麻烦，传统的例如 word 等文件格式它会将图片一起打包到文件中，但是在 md 当中图片更像是文档的<code>依赖文件</code>，是游离于文字之外的东西，除非你使用网络图片。我研究了各种图床，但是都存在各种限制。免费的图床很多，但是想要使用方便、免费、访问速度，稳定安全等因素兼得，实在是太难了。于是我最终选择了自己开发一个图床服务。</p>\n<h2> Hexo</h2>\n<p><a href=\"https://hexo.io/\" target=\"_blank\" rel=\"noopener noreferrer\">Hexo</a> ，这是我在经过认真对比后采用的博客构建工具，主题丰富，生态完善，采用 md 编写内容，基于 node 和 npm ，上手简单快捷。但是用起来总有不舒服的点:</p>\n<blockquote>\n<p>热更新速度慢，静态资源路径的识别无法跟编辑器很好的兼容，框架想要进行二次编码和修改只能使用最原始的 css 和 js 覆盖，集成 less 或者 ts 等现代前端工具需要自己编写和配置很多东西。</p>\n</blockquote>\n<p><a href=\"http://blog2.mo7.cc\" target=\"_blank\" rel=\"noopener noreferrer\">Hexo 制作的博客</a> <br>\n<a href=\"https://github.com/mo7Code/hexo-blog\" target=\"_blank\" rel=\"noopener noreferrer\">Hexo 博客项目源码</a></p>\n<h2> VuePress</h2>\n<p>后来发现了 <a href=\"https://v2.vuepress.vuejs.org\" target=\"_blank\" rel=\"noopener noreferrer\">VuePress</a> ，在仔细体验后，大爱！ 因为是基于 vite ，所以可以做到在编写 md 时几乎无感的热更新速度，保存之后页面无刷新渲染，使用体验媲美 VSCode 的本地预览！</p>\n<p>基于 Vue 渲染引擎，Vite 的编译和打包，TypeScript，Sass 支持，包括 Vue 组件等。博客的开发体验跟 WebApp 达成了一致，比 Hexo 高出了好几个档次。虽然生态尚不成熟，且 2.0 尚未发布稳定版本，但是却无法挡住其锋芒。</p>\n<p>缺点是主题和插件稀少，很多东西都得自己手动开发。</p>\n<h2> vuepress-theme-hope</h2>\n<p>自己编写一款主题需要的细节和工作量是巨大的，我并不想投入那么多的时间和精力在这个上面。但是 VuePress 原本的默认主题又太过简陋。</p>\n<p>在找寻许久后，我相中了 <a href=\"https://theme-hope.vuejs.press\" target=\"_blank\" rel=\"noopener noreferrer\">ThemeHope</a> 这款主题，它的作者是 VuePress 团队的成员，其更新速度和稳定性以及扩展性从基因层面就得到了保证。</p>\n<p>于是基于 Hope 主题进行了一些细微的调教，自己写了一些功能模块，才有了本站当前的模样。</p>\n<p>在这里感谢 <a href=\"https://mrhope.site\" target=\"_blank\" rel=\"noopener noreferrer\">𝓜𝓻.𝓗𝓸𝓹𝓮</a> 为我们带来这么棒的主题及其配套的插件。</p>\n",
+      "date_published": "2023-03-06T06:42:08.000Z",
+      "date_modified": "2023-03-06T06:51:29.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Debian",
+      "url": "https://blog.mo7.cc/linux/Debian/",
+      "id": "https://blog.mo7.cc/linux/Debian/",
+      "summary": "Debian 通用操作系统，最牛逼的 Linux 发行版 准备工作",
+      "content_html": "<h1> Debian</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">通用操作系统，最牛逼的 Linux 发行版</p>\n</div>\n<ul>\n<li><a href=\"/linux/Debian/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.html\" target=\"blank\">准备工作</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-02-07T08:01:50.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Linux 设置",
+      "url": "https://blog.mo7.cc/linux/Settings/",
+      "id": "https://blog.mo7.cc/linux/Settings/",
+      "summary": "Linux 设置 畅游 Linux 的必备操作 Curl 证书安装",
+      "content_html": "<h1> Linux 设置</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">畅游 Linux 的必备操作</p>\n</div>\n<ul>\n<li><a href=\"/linux/Settings/curl%E8%AF%81%E4%B9%A6%E9%97%AE%E9%A2%98.html\" target=\"blank\">Curl 证书安装</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-02-07T08:01:50.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "安装 curl 证书",
+      "url": "https://blog.mo7.cc/linux/Settings/curl%E8%AF%81%E4%B9%A6%E9%97%AE%E9%A2%98.html",
+      "id": "https://blog.mo7.cc/linux/Settings/curl%E8%AF%81%E4%B9%A6%E9%97%AE%E9%A2%98.html",
+      "summary": "安装 curl 证书 https://www.fournoas.com/posts/curl-unable-to-get-local-issuer-certificate/",
+      "content_html": "<h1> 安装 curl 证书</h1>\n<p><a href=\"https://www.fournoas.com/posts/curl-unable-to-get-local-issuer-certificate/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.fournoas.com/posts/curl-unable-to-get-local-issuer-certificate/</a></p>\n",
+      "date_published": "2023-02-07T08:01:50.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "收藏",
+      "url": "https://blog.mo7.cc/favorite/",
+      "id": "https://blog.mo7.cc/favorite/",
+      "summary": "收藏 有些记忆，弥足珍贵 影视 音乐 照片 链接",
+      "content_html": "<h1> 收藏</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">有些记忆，弥足珍贵</p>\n</div>\n<ul>\n<li><a href=\"/favorite/movies/\" target=\"blank\">影视</a></li>\n<li><a href=\"/favorite/music/\" target=\"blank\">音乐</a></li>\n<li><a href=\"/favorite/photos/\" target=\"blank\">照片</a></li>\n<li><a href=\"/favorite/links/\" target=\"blank\">链接</a></li>\n</ul>\n<hr>\n",
+      "date_published": "1978-12-18T00:00:00.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "链接",
+      "url": "https://blog.mo7.cc/favorite/links/",
+      "id": "https://blog.mo7.cc/favorite/links/",
+      "summary": "链接 常用文档 友情链接 在线工具",
+      "content_html": "<h1> 链接</h1>\n<ul>\n<li>\n<p><a href=\"/favorite/links/document.html\" target=\"blank\">常用文档</a></p>\n</li>\n<li>\n<p><a href=\"/favorite/links/friend.html\" target=\"blank\">友情链接</a></p>\n</li>\n<li>\n<p><a href=\"/favorite/links/tools.html\" target=\"blank\">在线工具</a></p>\n</li>\n</ul>\n<hr>\n",
+      "date_published": "1978-12-18T00:00:00.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "文档",
+      "url": "https://blog.mo7.cc/favorite/links/document.html",
+      "id": "https://blog.mo7.cc/favorite/links/document.html",
+      "summary": "文档 常用文档",
+      "content_html": "<h1> 文档</h1>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">常用文档</p>\n</div>\n<h2> </h2>\n",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "友链",
+      "url": "https://blog.mo7.cc/favorite/links/friend.html",
+      "id": "https://blog.mo7.cc/favorite/links/friend.html",
+      "summary": "友链 欢迎交换友情链接",
+      "content_html": "<h1> 友链</h1>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">欢迎交换友情链接</p>\n</div>\n",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "在线工具",
+      "url": "https://blog.mo7.cc/favorite/links/tools.html",
+      "id": "https://blog.mo7.cc/favorite/links/tools.html",
+      "summary": "在线工具 好用的在线工具",
+      "content_html": "<h1> 在线工具</h1>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">好用的在线工具</p>\n</div>\n<h2> </h2>\n",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "影视",
+      "url": "https://blog.mo7.cc/favorite/movies/",
+      "id": "https://blog.mo7.cc/favorite/movies/",
+      "summary": "影视 『 生活就像一盒巧克力 』 阿甘正传",
+      "content_html": "<h1> 影视</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">『 生活就像一盒巧克力 』</p>\n</div>\n<ul>\n<li><a href=\"/favorite/movies/%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0.html\" target=\"blank\">阿甘正传</a></li>\n</ul>\n<hr>\n",
+      "date_published": "1978-12-18T00:00:00.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "阿甘正传",
+      "url": "https://blog.mo7.cc/favorite/movies/%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0.html",
+      "id": "https://blog.mo7.cc/favorite/movies/%E9%98%BF%E7%94%98%E6%AD%A3%E4%BC%A0.html",
+      "summary": "阿甘正传 《阿甘正传》是由罗伯特·泽米吉斯执导的电影，由汤姆·汉克斯、罗宾·怀特等人主演，于 1994 年 7 月 6 日在美国上映。 电影改编自美国作家温斯顿·格鲁姆于 1986 年出版的同名小说，描绘了先天智障的小镇男孩福瑞斯特·甘自强不息，最终“傻人有傻福”地得到上天眷顾，在多个领域创造奇迹的励志故事 [1] 。电影上映后，于 1995 年获得奥斯卡最佳影片奖、最佳男主角奖、最佳导演奖等 6 项大奖 。 2014 年 9 月 5 日，在该片上映 20 周年之际，《阿甘正传》IMAX 版本开始在全美上映 海报",
+      "content_html": "<h1> 阿甘正传</h1>\n<p>《阿甘正传》是由罗伯特·泽米吉斯执导的电影，由汤姆·汉克斯、罗宾·怀特等人主演，于 1994 年 7 月 6 日在美国上映。</p>\n<p>电影改编自美国作家温斯顿·格鲁姆于 1986 年出版的同名小说，描绘了先天智障的小镇男孩福瑞斯特·甘自强不息，最终“傻人有傻福”地得到上天眷顾，在多个领域创造奇迹的励志故事 [1] 。电影上映后，于 1995 年获得奥斯卡最佳影片奖、最佳男主角奖、最佳导演奖等 6 项大奖 。</p>\n<p>2014 年 9 月 5 日，在该片上映 20 周年之际，《阿甘正传》IMAX 版本开始在全美上映</p>\n<figure><figcaption>海报</figcaption></figure>\n",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "音乐",
+      "url": "https://blog.mo7.cc/favorite/music/",
+      "id": "https://blog.mo7.cc/favorite/music/",
+      "summary": "音乐 单曲循环一整天 网易云歌单",
+      "content_html": "<h1> 音乐</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">单曲循环一整天</p>\n</div>\n<ul>\n<li><a href=\"/favorite/music/%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C%E5%8D%95.html\" target=\"blank\">网易云歌单</a></li>\n</ul>\n<hr>\n",
+      "date_published": "1978-12-18T00:00:00.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "网易云歌单",
+      "url": "https://blog.mo7.cc/favorite/music/%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C%E5%8D%95.html",
+      "id": "https://blog.mo7.cc/favorite/music/%E7%BD%91%E6%98%93%E4%BA%91%E6%AD%8C%E5%8D%95.html",
+      "summary": "网易云歌单",
+      "content_html": "<h1> 网易云歌单</h1>\n<iframe frameborder=\"no\" border=\"0\" marginwidth=\"0\" marginheight=\"0\" width=\"100%\" height=\"550\" src=\"//music.163.com/outchain/player?type=0&amp;id=8056247134&amp;auto=0&amp;height=430\"></iframe>\n",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "必应每日壁纸 api",
+      "url": "https://blog.mo7.cc/favorite/photos/BingImgApi.html",
+      "id": "https://blog.mo7.cc/favorite/photos/BingImgApi.html",
+      "summary": "必应每日壁纸 api 采用 golang 编写，每日定时爬取 https://cn.bing.com 当日的 7 张壁纸，并将链接固定下来进行 302 重定向。 idx 参数分别对应 当日壁纸数组 的序号，idx=1 时则返回当天壁纸。 支持 http 以及 https 。 HTML 和 Markdown 使用",
+      "content_html": "<h1> 必应每日壁纸 api</h1>\n<p>采用 golang 编写，每日定时爬取 <a href=\"https://cn.bing.com\" target=\"_blank\" rel=\"noopener noreferrer\">https://cn.bing.com</a> 当日的 7 张壁纸，并将链接固定下来进行 302 重定向。 idx 参数分别对应 当日壁纸数组 的序号，<code>idx=1</code> 时则返回当天壁纸。</p>\n<p>支持 <code>http</code> 以及 <code>https</code> 。</p>\n<h2> HTML 和 Markdown 使用</h2>\n<div class=\"language-html line-numbers-mode\" data-ext=\"html\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><div class=\"language-markdown line-numbers-mode\" data-ext=\"md\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p><img src=\"//file.mo7.cc/api/public/bz?idx=1\" alt=\"\" loading=\"lazy\">\n<img src=\"//file.mo7.cc/api/public/bz?idx=3\" alt=\"\" loading=\"lazy\">\n<img src=\"//file.mo7.cc/api/public/bz\" alt=\"\" loading=\"lazy\"></p>\n<blockquote>\n<p>当 <code>idx</code> 参数小于 1 时，则会随机返回一张壁纸</p>\n</blockquote>\n<h2> api 接口返回当日 json 数据</h2>\n<div class=\"language-javascript line-numbers-mode\" data-ext=\"js\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>API 完整地址:\n<a href=\"https://file.mo7.cc/api/public/url\" target=\"_blank\" rel=\"noopener noreferrer\">https://file.mo7.cc/api/public/url</a></p>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">相关信息</p>\n<p>程序采用 golang 编写，采用 302 重定向返回图片，流量消耗可以忽略不计。程序定时爬取数据并缓存在内存中，因此可以支持极高的并发。欢迎食用 ~</p>\n</div>\n",
+      "image": "https://blog.mo7.cc//file.mo7.cc/api/public/bz?idx=1",
+      "date_published": "2023-02-06T05:04:16.000Z",
+      "date_modified": "2023-02-07T07:16:11.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "相册",
+      "url": "https://blog.mo7.cc/favorite/photos/",
+      "id": "https://blog.mo7.cc/favorite/photos/",
+      "summary": "相册 唯愿此景与汝共 必应壁纸 Api",
+      "content_html": "<h1> 相册</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">唯愿此景与汝共</p>\n</div>\n<ul>\n<li><a href=\"/favorite/photos/BingImgApi.html\" target=\"blank\">必应壁纸 Api</a></li>\n</ul>\n<hr>\n",
+      "date_published": "1978-12-18T00:00:00.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Debian 下安装 Mongodb",
+      "url": "https://blog.mo7.cc/linux/Debian/%E5%AE%89%E8%A3%85MongoDB.html",
+      "id": "https://blog.mo7.cc/linux/Debian/%E5%AE%89%E8%A3%85MongoDB.html",
+      "summary": "Debian 下安装 Mongodb https://www.rezhuji.com/os/debian11/build/how_to_use_apt_install_mongodb_6_on_debian11.html",
+      "content_html": "<h1> Debian 下安装 Mongodb</h1>\n<p><a href=\"https://www.rezhuji.com/os/debian11/build/how_to_use_apt_install_mongodb_6_on_debian11.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.rezhuji.com/os/debian11/build/how_to_use_apt_install_mongodb_6_on_debian11.html</a></p>\n",
+      "date_published": "2023-02-03T03:17:09.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "Debian 准备工作",
+      "url": "https://blog.mo7.cc/linux/Debian/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.html",
+      "id": "https://blog.mo7.cc/linux/Debian/%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C.html",
+      "summary": "Debian 准备工作 https://www.debian.org/doc/manuals/debian-faq/getting-debian.zh-cn.html #修改登录账户密码 passwd # 查看 Shell cat /etc/shells echo $SHELL #改为使用 bash chsh -s /bin/bash # 查看linux 版本 lsb_release -a # 修改 hostname 添加 vim /etc/hostname vim /etc/hosts",
+      "content_html": "<h1> Debian 准备工作</h1>\n<p><a href=\"https://www.debian.org/doc/manuals/debian-faq/getting-debian.zh-cn.html\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.debian.org/doc/manuals/debian-faq/getting-debian.zh-cn.html</a></p>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2> 修改 ssh 配置</h2>\n<p>vim /etc/ssh/sshd_config</p>\n<div class=\"language-YML line-numbers-mode\" data-ext=\"YML\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><p>然后重启 ssh</p>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><h2> 保持系统最新</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2> 换源</h2>\n<p><a href=\"https://mirrors.tuna.tsinghua.edu.cn/help/debian/\" target=\"_blank\" rel=\"noopener noreferrer\">https://mirrors.tuna.tsinghua.edu.cn/help/debian/</a></p>\n<h2> 查看文件数量限制</h2>\n<p>ulimit -Hn</p>\n<h2> 修改时区</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2> 安装一些必要软件</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2> 命令行上色</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><h2> 重启</h2>\n<div class=\"language-bash line-numbers-mode\" data-ext=\"sh\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div><h2> 安装证书</h2>\n<p><a href=\"https://www.gingerdoc.com/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-debian-10\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gingerdoc.com/tutorials/how-to-set-up-and-configure-a-certificate-authority-ca-on-debian-10</a></p>\n",
+      "date_published": "2023-02-02T05:51:36.000Z",
+      "date_modified": "2023-02-21T01:44:15.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "Linux"
+      ]
+    },
+    {
+      "title": "目录",
+      "url": "https://blog.mo7.cc/linux/",
+      "id": "https://blog.mo7.cc/linux/",
+      "summary": "目录 世界上有两种人，用 Linux 的和不会 Linux 的 Debian Linux 设置",
+      "content_html": "<h1> 目录</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">世界上有两种人，用 Linux 的和不会 Linux 的</p>\n</div>\n<ul>\n<li><a href=\"/linux/Debian/\" target=\"blank\">Debian</a></li>\n<li><a href=\"/linux/Settings/\" target=\"blank\">Linux 设置</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-02-02T03:04:14.000Z",
+      "date_modified": "2023-03-06T07:20:16.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "技巧",
+      "url": "https://blog.mo7.cc/skills/",
+      "id": "https://blog.mo7.cc/skills/",
+      "summary": "技巧 帮你省下 10 年光阴 ssh 跳板机",
+      "content_html": "<h1> 技巧</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">帮你省下 10 年光阴</p>\n</div>\n<ul>\n<li><a href=\"/skills/ssh%E8%B7%B3%E6%9D%BF%E6%9C%BA.html\" target=\"blank\">ssh 跳板机</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-01-25T18:51:02.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "ssh 跳板机",
+      "url": "https://blog.mo7.cc/skills/ssh%E8%B7%B3%E6%9D%BF%E6%9C%BA.html",
+      "id": "https://blog.mo7.cc/skills/ssh%E8%B7%B3%E6%9D%BF%E6%9C%BA.html",
+      "summary": "ssh 跳板机 通过设置 ProxyCommand 来进行 ssh 跳板机 代理 github ssh 协议 和 ssh 登录加速。 文件:~/.ssh/config Host itpo.mo7.cc HostName itpo.mo7.cc User root Host mo7.cc HostName mo7.cc User root ProxyCommand ssh -W %h:%p itpo.mo7.cc Host github.com HostName github.com User git ProxyCommand ssh -W %h:%p itpo.mo7.cc",
+      "content_html": "<h1> ssh 跳板机</h1>\n<blockquote>\n<p>通过设置 ProxyCommand 来进行 ssh 跳板机</p>\n</blockquote>\n<p>代理 github ssh 协议 和 ssh 登录加速。</p>\n<p>文件:<code>~/.ssh/config</code></p>\n<div class=\"language-conf line-numbers-mode\" data-ext=\"conf\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div>",
+      "date_published": "2023-01-25T18:51:02.000Z",
+      "date_modified": "2023-02-07T08:01:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "技巧"
+      ]
+    },
+    {
+      "title": "目录",
+      "url": "https://blog.mo7.cc/tools/",
+      "id": "https://blog.mo7.cc/tools/",
+      "summary": "目录 一些烦恼解决起来其实很容易 帮你省下十年光阴 原神自动签到",
+      "content_html": "<h1> 目录</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">一些烦恼解决起来其实很容易</p>\n<p>帮你省下十年光阴</p>\n</div>\n<ul>\n<li><a href=\"/tools/%E5%8E%9F%E7%A5%9E%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0.html\" target=\"blank\">原神自动签到</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-01-25T18:51:02.000Z",
+      "date_modified": "2023-03-08T08:37:21.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "原神自动签到",
+      "url": "https://blog.mo7.cc/tools/%E5%8E%9F%E7%A5%9E%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0.html",
+      "id": "https://blog.mo7.cc/tools/%E5%8E%9F%E7%A5%9E%E8%87%AA%E5%8A%A8%E7%AD%BE%E5%88%B0.html",
+      "summary": "原神自动签到 该功能已下架 签到这里被加上了验证码防护，写了俩小时，发现只是徒劳~ 老老实实手动签到吧。 第一步： 获取 Cookie PC 端打开 米哈游账号管理 并登录，然后 F12 打开开发者工具",
+      "content_html": "<h1> 原神自动签到</h1>\n<div class=\"hint-container warning\">\n<p class=\"hint-container-title\">该功能已下架</p>\n<p>签到这里被加上了验证码防护，写了俩小时，发现只是徒劳~ 老老实实手动签到吧。</p>\n</div>\n<figure><figcaption></figcaption></figure>\n<h2> 第一步： 获取 Cookie</h2>\n<p>PC 端打开 <a href=\"https://user.mihoyo.com\" target=\"_blank\" rel=\"noopener noreferrer\">米哈游账号管理</a> 并登录，然后 <code>F12</code> 打开开发者工具</p>\n<figure><figcaption></figcaption></figure>\n<p>找到 Cookie 后右键复制</p>\n<h2> 第二步： 提交 Cookie</h2>\n<p>打开 <a href=\"https://trade.mo7.cc\" target=\"_blank\" rel=\"noopener noreferrer\">https://trade.mo7.cc</a> , 右上角打开侧边栏，并登录，然后跳转到 <code>米游社自动签到</code> 页面</p>\n<figure><figcaption></figcaption></figure>\n<p>粘贴并提交 Cookie 即可。</p>\n",
+      "date_published": "2023-01-25T18:51:02.000Z",
+      "date_modified": "2023-03-08T08:37:21.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "游戏"
+      ]
+    },
+    {
+      "title": "博文",
+      "url": "https://blog.mo7.cc/posts/",
+      "id": "https://blog.mo7.cc/posts/",
+      "summary": "博文 记录一些所思所想 Markdown",
+      "content_html": "<h1> 博文</h1>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">记录一些所思所想</p>\n</div>\n<ul>\n<li><a href=\"/posts/markdown.html\" target=\"blank\">Markdown</a></li>\n</ul>\n<hr>\n",
+      "date_published": "2023-01-13T16:04:06.000Z",
+      "date_modified": "2023-03-06T06:51:29.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "title": "Markdown",
+      "url": "https://blog.mo7.cc/posts/markdown.html",
+      "id": "https://blog.mo7.cc/posts/markdown.html",
+      "summary": "Markdown VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。 你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。",
+      "content_html": "<h1> Markdown</h1>\n<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>\n<p>你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>\n<!-- more -->\n<h2> Markdown 介绍</h2>\n<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href=\"https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/\" target=\"_blank\" rel=\"noopener noreferrer\">Markdown 介绍</a> 和 <a href=\"https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/demo.html\" target=\"_blank\" rel=\"noopener noreferrer\">Markdown 演示</a>。</p>\n<h2> Markdown 配置</h2>\n<p>VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。</p>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">相关信息</p>\n<p>Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href=\"https://vuepress-theme-hope.github.io/v2/zh/cookbook/vuepress/page.html#front-matter\" target=\"_blank\" rel=\"noopener noreferrer\">Frontmatter 介绍</a>。</p>\n</div>\n<h2> Markdown 扩展</h2>\n<p>VuePress 会使用 <a href=\"https://github.com/markdown-it/markdown-it\" target=\"_blank\" rel=\"noopener noreferrer\">markdown-it</a> 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 <a href=\"https://github.com/markdown-it/markdown-it#syntax-extensions\" target=\"_blank\" rel=\"noopener noreferrer\">语法扩展</a> 。</p>\n<h3> VuePress 扩展</h3>\n<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>\n<p>关于这些扩展，请阅读 <a href=\"https://vuepress-theme-hope.github.io/v2/zh/cookbook/vuepress/markdown.html\" target=\"_blank\" rel=\"noopener noreferrer\">VuePress 中的 Markdown 扩展</a>。</p>\n<h3> 主题扩展</h3>\n<p>通过 <a href=\"https://vuepress-theme-hope.github.io/v2/md-enhance/zh/\" target=\"_blank\" rel=\"noopener noreferrer\"><code>vuepress-plugin-md-enhance</code></a>，主题扩展了更多 Markdown 语法，提供更加丰富的写作功能。</p>\n<h4> 自定义容器</h4>\n<div v-pre=\"\">\n<p>安全的在 Markdown 中使用 {{ variable }}。</p>\n</div>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">自定义标题</p>\n<p>信息容器，包含 <code>代码</code> 与 <a href=\"#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%B9%E5%99%A8\">链接</a>。</p>\n<div class=\"language-javascript line-numbers-mode\" data-ext=\"js\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div></div></div></div>\n<div class=\"hint-container tip\">\n<p class=\"hint-container-title\">自定义标题</p>\n<p>提示容器</p>\n</div>\n<div class=\"hint-container warning\">\n<p class=\"hint-container-title\">自定义标题</p>\n<p>警告容器</p>\n</div>\n<div class=\"hint-container danger\">\n<p class=\"hint-container-title\">自定义标题</p>\n<p>危险容器</p>\n</div>\n<details class=\"hint-container details\"><summary>自定义标题</summary>\n<p>详情容器</p>\n</details>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/container.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 代码块</h4>\n\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/code-tabs.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 上下角标</h4>\n<p>19<sup>th</sup> H<sub>2</sub>O</p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/sup-sub.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 自定义对齐</h4>\n<div style=\"text-align:center\">\n<p>我是居中的</p>\n</div>\n<div style=\"text-align:right\">\n<p>我在右对齐</p>\n</div>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/align.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> Attrs</h4>\n<p>一个拥有 ID 的 <strong id=\"word\">单次</strong>。</p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/attrs.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 脚注</h4>\n<p>此文字有脚注<sup class=\"footnote-ref\"><a href=\"#footnote1\">[1]</a><a class=\"footnote-anchor\" id=\"footnote-ref1\"></a></sup><a class=\"footnote-anchor\" id=\"footnote-ref1\">.</a></p><a class=\"footnote-anchor\" id=\"footnote-ref1\">\n</a><ul><a class=\"footnote-anchor\" id=\"footnote-ref1\">\n</a><li><a class=\"footnote-anchor\" id=\"footnote-ref1\"></a><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/footnote.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 标记</h4>\n<p>你可以标记 <mark>重要的内容</mark> 。</p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mark.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 任务列表</h4>\n<ul class=\"task-list-container\">\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-0\" checked=\"checked\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-0\"> 计划 1</label></p>\n</li>\n<li class=\"task-list-item\">\n<p><input type=\"checkbox\" class=\"task-list-item-checkbox\" id=\"task-item-1\" disabled=\"disabled\"><label class=\"task-list-item-label\" for=\"task-item-1\"> 计划 2</label></p>\n</li>\n<li>\n<p><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tasklist.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></p>\n</li>\n</ul>\n<h3> 图片增强</h3>\n<p>支持为图片设置颜色模式和大小</p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/image.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 图表</h4>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/chart.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> Echarts</h4>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/echarts.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 流程图</h4>\n<div class=\"language-flow line-numbers-mode\" data-ext=\"flow\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/flowchart.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> Mermaid</h4>\n<div class=\"language-mermaid line-numbers-mode\" data-ext=\"mermaid\"><div class=\"line-numbers\" aria-hidden=\"true\"><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div><div class=\"line-number\"></div></div></div><ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/mermaid.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> Tex 语法</h4>\n<p>$$\n\\frac {\\partial^r} {\\partial \\omega^r} \\left(\\frac {y^{\\omega}} {\\omega}\\right)\n= \\left(\\frac {y^{\\omega}} {\\omega}\\right) \\left{(\\log y)^r + \\sum_{i=1}^r \\frac {(-1)^i r \\cdots (r-i+1) (\\log y)^{r-i}} {\\omega^i} \\right}\n$$</p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tex.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 导入文件</h4>\n<div class=\"hint-container info\">\n<p class=\"hint-container-title\">记录一些所思所想</p>\n</div>\n<ul>\n<li><a href=\"/posts/markdown.html\" target=\"blank\">Markdown</a></li>\n</ul>\n<hr>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/include.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 代码演示</h4>\n\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/demo.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 样式化</h4>\n<p>向 Mr.Hope 捐赠一杯咖啡。 </p>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/stylize.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 交互演示</h4>\n\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/playground.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> Vue 交互演示</h4>\n\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/vue-playground.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<h4> 幻灯片</h4>\n<ul>\n<li><a href=\"https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/presentation.html\" target=\"_blank\" rel=\"noopener noreferrer\">查看详情</a></li>\n</ul>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"footnote1\" class=\"footnote-item\"><p>这是脚注内容 <a href=\"#footnote-ref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n",
+      "date_published": "2023-01-08T08:38:42.000Z",
+      "date_modified": "2023-02-07T06:08:50.000Z",
+      "authors": [
+        {
+          "name": "墨七",
+          "url": "https://mo7.cc"
+        }
+      ],
+      "tags": [
+        "使用指南"
+      ]
+    }
+  ]
+}
